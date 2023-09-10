@@ -4,7 +4,7 @@ A short Appfront Exercise# News Feed App
 
 1. **Clone the Repository**
 	```
-	git clone https://github.com/yourusername/news-feed-app.git
+	git clone https://github.com/JoeAxelrod/news-feed-client-app.git
 	```
 
 2. **Navigate to Client Directory**
