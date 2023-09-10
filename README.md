@@ -50,7 +50,26 @@ A short Appfront Exercise# News Feed App
 
 This will start both the server and the client as background services. To stop them, you can run `docker-compose down`.
 
+## Testing
 
+We use Mocha and Chai for testing the backend API. To run the tests, navigate to the server directory and run:
+
+
+### Test Cases
+
+#### Server API Tests
+
+1. **GET /items**: Validates that the endpoint returns an array of items.
+2. **POST /signup**: Tests the registration of a phone number.
+3. **POST /add-item**: Checks if a new item can be added.
+
+You can find the test scripts under `./test/` directory.
+
+To run an individual test case, you can use the following command:
+
+```bash
+mocha -g '<describe_string>'
+```
 
 ## Features
 
